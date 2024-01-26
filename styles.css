@@ -4,7 +4,7 @@ body, ul, li, p{
     list-style: none;
     font-size: 2.0rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /*background-color: rgb(134, 167, 228); = fica com a cor no menu tbm*/
+    
 }
 
 a{
@@ -14,15 +14,19 @@ a{
 
 header{
     display: flex;
-    background-color: black;
+    color: white;
+    background-color: rgb(175, 35, 0);
     padding: 20px;
-    align-items: normal;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: 14px;
 }
 
 .menu{
     display: flex;
+    background-color: rgb(194, 165, 39);
+    padding: 12px;
 }
 
 .menu li{
@@ -31,9 +35,12 @@ header{
 
 .menu li a{
     display: block;
-    padding: 8px;
-    background: rgb(32, 32, 32);
+    padding: 8px 2px;
+    margin-left: 20px;
     border-radius: 4%;
+    font-size: 16px;
+    font: bold;
+    color: black;
 }
 
 h1{
@@ -66,12 +73,10 @@ img{
 
 footer{
     display: flex;
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(26, 25, 25);
     padding: 20px;
-    align-items: normal;
-    flex-wrap: wrap;
-    justify-content:right; 
-    bottom: 0px;
+    color: white;
+    font-weight: 10px;
 }
 
 section.topo{
