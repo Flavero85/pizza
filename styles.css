@@ -1,50 +1,58 @@
-body, ul, li, p{
+.principal{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+body{
+    background-image: url(Imagens/fundo.jpg);
+    padding: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    list-style: none;
-    font-size: 2.0rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: url(Imagens/fundo.jpg);
-    
 }
 
-#principal{
-    background-color: white;
-    width: 80%;
-    margin: 0 10% 0  ;
-}
-
-
-header{
+.header{
     display: flex;
-    color: white;
     background-color: rgb(175, 35, 0);
     padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 14px;
+    color: white;
 }
 
 .menu{
+    text-decoration: none;
+    color: #333333;
+    background-color: #d9ae30;
     display: flex;
-    background-color: rgb(194, 165, 39);
-    padding: 12px;
-    
+    margin: 0;
+    padding: 15px 0px 15px 0px;
 }
-
-.menu li{
-    margin-left: 10px;
-}
-
+ hr{
+    height: 0, 5px;
+    border-color: #333333;
+    background-color: #333333;
+    display: flex;
+    width: 960px;
+    color: #333333;
+ }
 .menu li a{
-    display: block;
-    padding: 8px 2px;
+    
     margin-left: 20px;
     border-radius: 4%;
     font-size: 16px;
     font: bold;
     color: black;
+}
+
+.nomes_pizzas{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 h3{
@@ -67,8 +75,9 @@ img{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
+    justify-content: space-between;
     
 }
 
@@ -79,6 +88,7 @@ img{
 
 footer{
     display: flex;
+    position: fixed;
     background-color: rgb(26, 25, 25);
     padding: 20px ;
     color: white;
