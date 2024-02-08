@@ -49,7 +49,7 @@ body {
   text-decoration: none;
   font-weight: bolder;
   font-size: 12px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .titulo {
@@ -190,4 +190,9 @@ hr {
   padding: 20px;
   padding-left: 30px;
   color: white;
+}
+
+.galeria-sobre{
+  display: flex;
+  padding: 0;
 }
